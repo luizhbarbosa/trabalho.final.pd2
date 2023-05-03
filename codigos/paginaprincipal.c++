@@ -5,9 +5,9 @@ using namespace std;
 
 const int NUM_SALAS = 7;
 const int CAPACIDADE_SALAS[NUM_SALAS] = {10, 15, 50, 60, 80, 50, 10};
-const int NUM_TURMAS = 7;
+const int NUM_TURMAS = 8;
 const int TAMANHO_TURMAS[NUM_TURMAS] = {80, 10, 20, 60, 40, 15, 15, 15};
-const int NUM_HORARIOS = 10;
+const int NUM_HORARIOS = 9;
 const string HORARIOS[NUM_HORARIOS] = {"07-08", "08-09", "09-10", "10-11", "11-12", "13-14", "14-15", "16-17", "17-18"};
 
 bool alocarSala(int turma, int horario, vector<vector<int>>& salas) {
